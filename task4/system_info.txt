@@ -1,0 +1,8 @@
+===== SYSTEM INFORMATION =====
+Hostname: CyberNikkY
+OS: GNU/Linux
+Kernel Version: 5.15.167.4-microsoft-standard-WSL2
+Architecture: x86_64
+Uptime: up 24 minutes
+Current User: ilotpal
+Date & Time: Tue Jan 20 14:36:43 UTC 2026
