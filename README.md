@@ -105,7 +105,76 @@ Expect incremental improvements, refactoring, and better practices over time —
 - Shell scripting
 - DevOps utilities as required per task
 
+
+Environment Variables & PATH (Linux)
+📌 Task Focus
+
+This task focuses on understanding runtime configuration in Linux using environment variables and the PATH variable — a fundamental DevOps concept that directly affects how applications and commands are executed in real systems.
+
+🔍 What Was Done
+
+Inspected existing system and user environment variables
+
+Created custom environment variables
+
+Temporary (session-based)
+
+Permanent (persistent across sessions)
+
+Used export to expose variables to child processes
+
+Modified the PATH variable safely (without breaking existing paths)
+
+Created a custom executable and validated PATH configuration
+
+Debugged common PATH-related issues
+
+Persisted configuration using .bashrc
+
+🛠 Tools & Environment
+
+Linux (Ubuntu on WSL)
+
+Bash shell
+
+✅ Key Learnings
+
+How Linux resolves commands using PATH
+
+Difference between local, exported, and persistent variables
+
+Why misconfigured PATH variables break systems
+
+How runtime configuration is managed without hardcoding values
+
+📂 Task Location
+task7-env-vars/
+
+
+Each task directory includes:
+
+Commands used
+
+Configuration details
+
+Screenshots as proof
+
+Short explanation of outcomes
+
+🔎 Why This Task Matters
+
+Environment variables and PATH misconfigurations are a common cause of production failures.
+This task builds the foundation needed to:
+
+Debug broken pipelines
+
+Fix “command not found” errors
+
+Understand container, CI/CD, and server runtime behavior
+
 ---
 
 ## 📄 License
 This project is for **learning and educational purposes**.
+
+##Author: Nilotpal Sarma
